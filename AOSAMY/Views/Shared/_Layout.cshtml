@@ -1,0 +1,107 @@
+﻿<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,cheome=1">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/style.css">
+    <link rel="shortcut icon" href="~/img/icoooo.png" type="icon" /> 
+    <title>AOSAMY</title>
+</head>
+<body>
+    
+    
+    <!-- --------- Header  ------ -->
+
+    <header>
+         
+
+
+        <a href="#" id="logo"><img src="~/img/AOSAMYlogo copy.png" width="150" ></a>
+        <nav class="navbar">
+            
+            <a href="#" id="main-btn">المدونة</a>
+            <a asp-controller="Market" asp-action="Shops">الفنانين</a>
+            <a asp-controller="Main" asp-action="Index">السوق</a>
+         
+        </nav>
+
+        <!-- search -->
+        <!-- <input placeholder="البحث" class="input" name="text" type="text"> -->
+        <!-- ======= -->
+      
+        <a class="b1" target="_blank" asp-action="Singnin" asp-controller="User">أفتح متجرك</a>
+       
+
+    </header>
+
+    <br>
+    <br>
+    <br>
+    <br />
+         @RenderBody()
+
+  
+
+       
+
+
+ 
+
+
+
+
+
+    <!-- /* ------------ section footer ------------- */ -->
+
+    <footer id="footer">
+        <div class="row1">
+            
+            <div class="col1">
+                <img src="~/img/AOSAMYlogofoot.png" class="logo1">
+            </div>
+
+            <div class="col1">
+                <h3>الرئيسية</h3>
+                <ul>
+                    <li><a href="#">المدونه</a></li>
+                    <li><a href="#">الاسئلة الشائعة</a></li>
+                    <li><a href="#">عن أوسامي</a></li>
+                </ul>
+            </div>
+
+            <div class="col1">
+                <h3>الأمور القانونية</h3>
+                <ul>
+                    <li><a href="#">سياسة الاستخدام</a></li>
+                    <li><a href="#">الترخيص</a></li>
+                    <li><a href="#">تواصل معنا</a></li>
+                </ul>
+            </div>
+
+            <div class="col1">
+                <h3>تابعنا على</h3>
+                <ul>
+                    <li><a href="#">فيسبوك</a></li>
+                    <li><a href="#">انستقرام</a></li>
+                    <li><a href="#">تويتر</a></li>
+                </ul>
+            </div>
+        </div>
+
+        <!-- <hr/> -->
+
+        <p class="footertitle"> صنع بحُب بواسطة <strong><i> &nbsp; AOSAMY TEAM </i></strong><br/>
+        All Copyright Reserved © 2024</p>
+
+
+    </footer>
+
+    
+
+</body>
+</html>
+
+
+@await RenderSectionAsync("Scripts", required: false)

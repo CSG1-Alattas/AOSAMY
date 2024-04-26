@@ -1,0 +1,261 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+/* ========= Header ========== */
+
+
+header {
+    background-color: #fff;
+    width: 100%;
+    position:fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 150px;
+    border-bottom: #e7dfff solid 1px;
+}
+
+
+.navbar a{
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #7b57fb;
+    padding: 30px;
+}
+
+a{
+    text-decoration: none;
+}
+
+
+
+
+
+
+
+
+
+.b1 {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 29px;
+    font-size: medium;
+    font-weight: 450;
+    margin: 0 62px;
+    background-color: #7b57fb;
+    transition: 0.7s ease;
+}
+
+
+
+.b1:hover{
+    background-color: #e7dfff;
+    transform: scale(1.001);
+    color: #7b57fb;
+}
+
+
+.b2 {
+    cursor: pointer;
+    border: 0.125em solid #7b57fb;
+    background-color: #7b57fb;
+    padding: 12px 30px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    margin: 0 -129px;
+
+}
+
+
+
+/* ============ */
+
+
+.info{
+    margin-top: 150px;
+    margin-bottom: 200px;
+    margin-right: 200px;
+    position: absolute;
+}
+
+.infoAccount h2,h3 , p{
+    padding-bottom: 20px;
+    padding-top: 20px;
+    color: #7b57fb;
+}
+
+.infoAccount hr{
+    width: 600px;
+    border: 1px solid #e7dfff;
+}
+
+
+/* ===butn */
+
+.butn {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 9px;
+    font-size: medium;
+    font-weight: 450;
+    background-color: #7b57fb;
+    transition: 0.2s ease;
+}
+
+
+
+.butn:hover{
+    background-color: #e7dfff;
+    transform: scale(1.001);
+    color: #7b57fb;
+}
+
+.butn2 {
+    cursor: pointer;
+    border: none;
+    color: #7b57fb;
+    padding: 12px 30px;
+    margin-right: 12px;
+    border-radius: 9px;
+    font-size: medium;
+    font-weight: 450;
+    background-color: #e7dfff;
+    transition: 0.2s ease;
+}
+
+
+
+.butn2:hover{
+    background-color: #7b57fb;
+    transform: scale(1.001);
+    color: #e7dfff;
+}
+
+
+
+
+
+/* ======Inputs=====*/
+
+label {
+    position: relative;
+  }
+
+label .input  {
+    width: 40%;
+    padding: 10px 10px 20px 10px;
+    outline: 0;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+    font-size: larger;
+    font-weight: 500;
+  }
+    
+label .input + span  {
+    position: absolute;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+    
+label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 1em;
+}
+
+label .input:focus + span,.form label .input:valid + span {
+    top: 20px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+    
+label .input:valid + span {
+    color: #7b57fb;
+}
+
+/* ===The picture=== */
+
+.picOfAcount{
+    color: #7b57fb;
+    position:relative ;
+    display: block; 
+    width: 150px;
+    height: 150px;
+    background:url(/img/userpic10.png);
+    background-size:cover;
+    border-radius: 100%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+       
+}
+.tit{
+    color: #7b57fb;
+    font-weight: 500;
+}
+
+
+/* ====جيميل صاحب المتجر من الداتا بيس ======== */
+
+.TheGmail{
+    color: black;
+    font-size: large;
+}
+/* ======= */
+.info2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    width: 360px;
+    padding: 12px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: start;
+    background: #7b57fb;
+    border-radius: 8px;
+    box-shadow: 0px 0px 5px -3px #111;
+  }
+  
+  .info__icon {
+    width: 20px;
+    height: 20px;
+    transform: translateY(-2px);
+    margin-right: 8px;
+  }
+  
+  .info__icon path {
+    fill: #fff;
+  }
+  
+  .info__title {
+    font-weight: 500;
+    font-size: 14px;
+    padding-right: 20px;
+    color: #fff;
+  }
+
+/* ======= */
+
+
+
+
+
+
+

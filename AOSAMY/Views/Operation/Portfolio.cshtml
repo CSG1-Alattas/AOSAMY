@@ -1,0 +1,114 @@
+﻿
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/portfolio.css">
+    <link rel="shortcut icon" href="~/img/icoooo.png" type="icon" /> 
+
+@model UserInfo
+
+<form method="post">
+ <div class="infoAccount">
+            <h3>معلومات العرض</h3>
+            <p>وستكون هذه المعلومات مرئية لجميع أعضاء هذا الموقع.</p>
+            
+            
+
+            
+            
+            <label asp-for="FirstName">
+                <input required="" placeholder="" type="text" class="input" asp-for="FirstName">
+                <span>عرض الاسم *</span>
+            </label>
+             <label asp-for="ScendName">
+                <input required="" placeholder="" type="text" class="input" asp-for="ScendName">
+                <span> عرض اسم العائلة *</span>
+            </label>
+    
+            <label asp-for="Addres">
+                <input required="" placeholder="" type="text" class="input" asp-for="Addres">
+                <span>العنوان</span>
+            </label>
+            
+            <label asp-for="Description">
+                <input required="" placeholder="" type="text" class="input" asp-for="Description">
+                <span>نبذه عني</span>
+            </label>
+
+       
+
+            <label asp-for="clientFile">
+            <div class="picOfAcount" asp-for="clientFile">
+                <!-- هنا يتم تغيير الصورة الشخصية -->
+            </div>
+            <span class="tit">&nbsp;&nbsp;&nbsp;&nbsp;الصورة الشخصية</span>
+            </label>
+    
+
+             <br/>
+             <br/>
+             <br/>
+            <hr>
+        </div>
+
+
+        <div class="infoAccount">
+            <h3>الحساب</h3>
+            <p>حدِّث معلوماتك الشخصية.</p>
+            <p>البريد الإلكتروني لتسجيل الدخول:</p>
+            <span class="TheGmail">
+                <!-- جيميل صاحب المتجر من الداتا بيس هنا يكون -->
+            </span>
+
+            <!-- == -->
+            
+    <div class="info2">
+        <div class="info__icon">
+        <svg xmlns="http://www.w3.org/2000/svg" width="24" viewBox="0 0 24 24" height="24" fill="none"><path fill="#393a37" d="m12 1.5c-5.79844 0-10.5 4.70156-10.5 10.5 0 5.7984 4.70156 10.5 10.5 10.5 5.7984 0 10.5-4.7016 10.5-10.5 0-5.79844-4.7016-10.5-10.5-10.5zm.75 15.5625c0 .1031-.0844.1875-.1875.1875h-1.125c-.1031 0-.1875-.0844-.1875-.1875v-6.375c0-.1031.0844-.1875.1875-.1875h1.125c.1031 0 .1875.0844.1875.1875zm-.75-8.0625c-.2944-.00601-.5747-.12718-.7808-.3375-.206-.21032-.3215-.49305-.3215-.7875s.1155-.57718.3215-.7875c.2061-.21032.4864-.33149.7808-.3375.2944.00601.5747.12718.7808.3375.206.21032.3215.49305.3215.7875s-.1155.57718-.3215.7875c-.2061.21032-.4864.33149-.7808.3375z"></path></svg>
+        </div>
+        <div class="info__title">لا يمكن تغيير بريدك الإلكتروني لتسجيل الدخول.</div>
+    </div>
+            <!-- == -->
+
+
+
+
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>الاسم الاول</span>
+            </label>
+    
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>الاسم الاخير</span>
+            </label>
+            <br/>
+            <br/>
+            <label>
+                <input required="" placeholder="" type="text" class="input">
+                <span>الهاتف</span>
+            </label>
+    
+            <label asp-for="CopnyName">
+                <input required="" placeholder="" type="text" class="input" asp-for="CopnyName">
+                <span>الشركة</span>
+            </label>
+
+            <br/>
+            <br/>
+            <br/>
+
+            <!--  ===== تحديث المعلومات  =====-->
+            <button class="butn"> تحديث المعلومات</button>
+            <a class="butn2" href="">تجاهل </a>
+
+            <br/>
+            <br/>
+            <br/>
+            <hr>
+
+            <br/>
+            <br/>
+            <br/>
+
+        </div>
+    </section>
+    </form>

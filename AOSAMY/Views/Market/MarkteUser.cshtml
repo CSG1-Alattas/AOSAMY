@@ -1,0 +1,64 @@
+﻿@model UserInfo
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/user.css">
+    <link rel="shortcut icon" href="~/img/icoooo.png" type="icon" /> 
+<!-- -------- card 1 ------- -->
+
+
+    <div class="card-container">
+    <div class="card">
+        <div class="card-border-top">
+        </div>
+        <div class="@Model.imgSrs">
+        </div>
+        <span> @Model.FirstName @Model.ScendName</span>
+        <p class="job">@Model.Specialty</p>  
+    </div>
+</div>
+    
+
+
+
+
+
+
+<div class="section-title">
+    <span class="sp-after">المنتجات</span>
+</div>
+
+
+
+    
+
+
+
+
+<!-- cards of products -->
+
+  
+
+<div class="theCards">
+      
+    @foreach (var item in Model.Products.ToList())
+    {
+         <!-- project 1 -->
+    <div class="ProjectCard">
+        <a asp-route-id="@item.Id">
+        <div class="ProjectImg">
+            <img src="img/uidesign.webp" />
+        </div>
+        <div class="ProjectInfo">
+            <p class="ProjectDescription">@item.Name</p>
+            <strong class="ProjectTitle">
+                
+                <a href="#" class="price">@item.Price</a>
+            </strong>
+        </div>
+        </a>
+    </div>
+        
+    }
+   
+
+
+</div>

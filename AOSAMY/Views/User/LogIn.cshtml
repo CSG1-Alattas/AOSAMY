@@ -1,0 +1,29 @@
+﻿<link rel="stylesheet" href="~/css/font-awesome.css">
+    <link rel="stylesheet" href="~/css/normalize.css">
+    <link rel="stylesheet" href="~/css/mainlogin.css">
+    <link rel="shortcut icon" href="~/img/icoooo.png" type="icon" /> 
+    <img class="img" src="img/backLogin.png" width="700px" >
+@model UserInfo
+    <form method="post" class="form">
+        <p class="title">سجل الدخول لمتجرك ..</p>
+        <p class="message">اكسب دخلا اضافيا من خلال بيع ملفاتك الرقمية<br>وجعلها متاحة لجميع العملاء الباحثين عن ملحقات </p>
+           
+        <label>
+            <input required="" placeholder="" type="email" class="input" asp-for="Email" >
+            <span>الإيميل</span>
+        </label> 
+            
+        <label>
+            <input required="" placeholder="" type="password" class="input" asp-for="Password" >
+            <span>كلمة المرور</span>
+        </label>
+
+        
+        <div class="rembar">
+            <input id="rembar" type="checkbox">
+            <label for="rembar">تذكرني</label>
+        </div>
+        
+        <button class="submit" >دخول</button>
+        <p class="signin">ليس لديك متجر؟ <a asp-action="Singnin" asp-controller="User" >إنشاء متجر</a> </p>
+    </form>

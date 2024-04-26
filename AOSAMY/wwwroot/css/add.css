@@ -1,0 +1,277 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+/* ========= Header ========== */
+
+
+header {
+    background-color: #fff;
+    width: 100%;
+    position:static;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 150px;
+    border-bottom: #e7dfff solid 1px;
+}
+
+
+.navbar a{
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #7b57fb;
+    padding: 30px;
+}
+
+
+
+
+.b1 {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 29px;
+    font-size: medium;
+    font-weight: 450;
+    text-decoration: none;
+    margin: 0 62px;
+    background-color: #7b57fb;
+    border: 0.125em solid #7b57fb;
+    transition: 0.7s ease;
+    border: none;
+}
+.b1:hover{
+    background-color: #e7dfff;
+    border: none;
+    transform: scale(1.001);
+    color: #7b57fb;
+}
+
+
+
+/* ================= */
+
+
+
+
+.title1 {
+    color: #7b57fb;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-top: 100px;
+
+
+}
+
+.paragraf{
+    color : rgb(101, 101, 101);
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}  
+
+
+
+
+/* ======Inputs=====*/
+
+form{
+    margin-right: 450px;
+    display:flexbox;
+
+   
+}
+
+label {
+    position: relative;
+
+  }
+
+label .input  {
+    width: 50%;
+    padding: 10px 10px 20px 10px;
+    outline: 1;
+    border: 1px solid rgba(105, 105, 105, 0.397);
+    border-radius: 10px;
+    font-size: large;
+    font-weight: 500;
+    margin-top:20px;
+  }
+    
+label .input + span  {
+    position: absolute;
+    margin-bottom: 20px;
+    left: 10px;
+    top: 15px;
+    color: grey;
+    font-size: 0.9em;
+    cursor: text;
+    transition: 0.3s ease;
+  }
+    
+label .input:placeholder-shown + span {
+    top: 15px;
+    font-size: 1em;
+}
+
+label .input:focus + span,.form label .input:valid + span {
+    top: 20px;
+    font-size: 0.7em;
+    font-weight: 600;
+}
+    
+label .input:valid + span {
+    color: #7b57fb;
+}
+
+select ,option{
+    color: grey;
+    direction: ltr;
+}
+
+
+
+.send{
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 9px;
+    font-size: medium;
+    font-weight: 450;
+    text-decoration: none;
+    background-color: #7b57fb;
+    transition: 0.7s ease;
+
+}
+
+ 
+
+
+
+/* === */
+
+
+
+/* ==add file== */
+
+
+.custum-file-upload {
+    height: 200px;
+    width: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 20px;
+    cursor: pointer;
+    align-items: center;
+    justify-content: center;
+    border: 2px dashed #e7dfff;
+    background-color: rgba(255, 255, 255, 1);
+    padding: 1.5rem;
+    border-radius: 10px;
+    box-shadow: 0px 48px 35px -48px rgba(0,0,0,0.21);
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+  
+  .custum-file-upload .icon {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .icon svg {
+    height: 80px;
+    fill: #7b57fb;
+  }
+  
+  .custum-file-upload .text {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .custum-file-upload .text span {
+    font-weight: 400;
+    color:#7b57fb;
+  }
+  
+  .custum-file-upload input {
+    display: none;
+  }
+
+  /* ======= */
+  
+
+/* ------------ section footer ------------- */
+
+footer{
+    width: 100%;
+    position:static;
+    margin-top: 100px;
+    background: #7b57fb;
+    color: #e7dfff;
+    padding: 100px 0 30px;
+    /* border-top-right-radius: 120px; */
+    /* border-top-left-radius: 120px; */
+    font-size: 17px;
+
+}
+
+.row1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo1{
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.col1 h3{
+    margin-bottom: 40px;
+} 
+
+ul li{
+    list-style:none;
+    margin-bottom: 12px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #e7dfff;
+}
+
+
+.footertitle {
+    text-align: center;
+    margin: 30px;
+    color:#e7dfff;
+    cursor:pointer;    
+}

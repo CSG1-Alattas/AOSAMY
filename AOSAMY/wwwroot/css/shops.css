@@ -1,0 +1,254 @@
+@import url('https://fonts.googleapis.com/css2?family=Tajawal:wght@200;300;400;500;700;800;900&display=swap');
+*{
+    font-family: 'Tajawal', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    scroll-behavior: smooth;
+}
+
+
+
+/* ========= Header ========== */
+
+
+header {
+    background-color: #fff;
+    width: 100%;
+    position:static;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0px 200px 0px 150px;
+    border-bottom: #e7dfff solid 1px;
+}
+
+
+.navbar a{
+    font-size: 1.1em;
+    font-weight: 700;
+    text-decoration: none;
+    color: #7b57fb;
+    padding: 30px;
+}
+
+
+
+
+.b1 {
+    cursor: pointer;
+    border: none;
+    color: #fff;
+    padding: 12px 30px;
+    border-radius: 29px;
+    font-size: medium;
+    font-weight: 450;
+    text-decoration: none;
+    margin: 0 62px;
+    background-color: #7b57fb;
+    border: 0.125em solid #7b57fb;
+    transition: 0.7s ease;
+    border: none;
+}
+.b1:hover{
+    background-color: #e7dfff;
+    border: none;
+    transform: scale(1.001);
+    color: #7b57fb;
+}
+
+.b2 {
+    cursor: pointer;
+    border: 0.125em solid #7b57fb;
+    background-color: #7b57fb;
+    padding: 12px 30px;
+    border-radius: 15px;
+    color: #fff;
+    font-size: large;
+    font-weight: 500;
+    margin: 0 -129px;
+
+}
+
+
+
+/* ================= */
+
+
+
+.title1 {
+    color: #7b57fb;
+    display: flex;
+    justify-content: center;
+    font-size: 2.2em;
+    font-weight: 800;
+    margin-bottom: 40px;
+    margin-top: 100px;
+
+
+}
+
+.paragraf{
+    color : rgb(101, 101, 101);
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 10px;
+    
+}  
+
+.paragraf2{
+    color : rgb(101, 101, 101);
+    display: flex;
+    justify-content: center;
+    font-size: 1.2em;
+    font-weight: 700;
+    margin-bottom: 40px;
+    
+} 
+
+
+
+/* ========= */
+
+
+.card-container{
+    margin-top: 30px;
+    display: flex;
+    justify-content: center;
+    flex-direction:row;
+    flex-wrap:wrap;
+    
+}
+
+
+.card {
+    
+    width: 250px;
+    height: 350px;
+    margin: 30px;
+    background: #fff;
+    border-radius: 15px;
+    overflow:hidden;
+    border: 1px solid rgb(208, 208, 208);
+
+}
+   
+.card .card-border-top {
+    width: 60%;
+    height: 3%;
+    background: #e7dfff;
+    margin: auto;
+    border-radius: 0px 0px 15px 15px;
+}
+   
+.card span {
+    font-weight: 600;
+    color: #7b57fb;
+    text-align: center;
+    display: block;
+    padding-top: 10px;
+    font-size: 16px;
+}
+   
+.card .job {
+    font-weight: 400;
+    color: #7b57fb;
+    display: block;
+    text-align: center;
+    padding-top: 3px;
+    font-size: 12px;
+}
+   
+.card .img {
+    width: 150px;
+    height: 150px;
+    background:url(/img/userpic1.png);
+    background-size:cover;
+    border-radius: 100%;
+    margin: auto;
+    margin-top: 25px;
+}
+   
+.card button {
+    padding: 8px 25px;
+    display: block;
+    margin: auto;
+    border-radius: 18px;
+    border: none;
+    margin-top: 30px;
+    background: #7b57fb;
+    color: #e7dfff;
+    font-weight: 600;
+    cursor: pointer;
+}
+   
+.card button:hover {
+    background: #6841f5;
+    color: #e7dfff;
+}
+
+a{
+    text-decoration: none;
+    color: #e7dfff;
+}
+
+
+
+
+/* ------------ section footer ------------- */
+
+footer{
+    width: 100%;
+    position:static;
+    margin-top: 100px;
+    background: #7b57fb;
+    color: #e7dfff;
+    padding: 100px 0 30px;
+    /* border-top-right-radius: 120px; */
+    /* border-top-left-radius: 120px; */
+    font-size: 17px;
+
+}
+
+.row1{
+    width: 85%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+.col1{
+    flex-basis: 25%;
+    padding: 10px;
+}
+
+.logo1{
+    width: 250px;
+    margin-bottom: 30px;
+}
+
+.col1 h3{
+    margin-bottom: 40px;
+} 
+
+ul li{
+    list-style:none;
+    margin-bottom: 12px;
+
+}
+
+ul li a{
+    text-decoration: none;
+    color: #e7dfff;
+}
+
+
+.footertitle {
+    text-align: center;
+    margin: 30px;
+    color:#e7dfff;
+    cursor:pointer;    
+}

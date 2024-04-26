@@ -1,0 +1,68 @@
+﻿<link rel="stylesheet" href="~/css/userOfShop.css">
+<link rel="shortcut icon" href="~/css/img/icoooo.png" type="icon" /> 
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,cheome=1">
+ <meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+@model UserInfo
+<div class="card-container">
+    <div class="card">
+        <div class="card-border-top">
+        </div>
+        <div class="@Model.imgSrs">
+        </div>
+        <span> @Model.FirstName</span>
+        <p class="job">@Model.Specialty</p>
+        
+        <br />
+        <a class="add-product"  asp-action="AddProduct" asp-controller="Operation" asp-route-Userlogid="@Model.Id" >إضافة منتج</a>
+			<a class="edit"  asp-action="Portfolio" asp-controller="Operation" asp-route-id="@Model.Id" >تعديل الحساب</a>
+        </div>
+
+            
+   
+
+      
+    
+    
+</div>
+
+
+
+
+<div class="section-title">
+    <span class="sp-after">اعمالي</span>
+</div>
+
+
+
+    
+
+
+
+
+<!-- cards of products -->
+
+  
+<div class="theCards">
+        @foreach (var item in Model.Products.ToList())
+{
+  <!-- project 1 -->
+    <div class="ProjectCard">
+        <a asp-action="ProductView" asp-controller="Market" asp-route-id="@item.Id">
+        <div class="ProjectImg">
+            <img src="@*@item.imgSrs*@" />
+        </div>
+        <div class="ProjectInfo">
+            <p class="ProjectDescription">@item.Name </p>
+            <strong class="ProjectTitle">
+                
+                <a href="#" class="price">@item.Price</a>
+            </strong>
+        </div>
+        </a>
+    </div>  
+}
+
+    
+  
+    </div>

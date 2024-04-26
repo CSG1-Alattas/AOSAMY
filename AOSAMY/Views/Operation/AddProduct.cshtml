@@ -1,0 +1,86 @@
+﻿@model Product
+@{
+    ViewData["Title"] = "AddProduct";
+}
+
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="~/css/add.css">
+    <link rel="shortcut icon" href="~/img/icoooo.png" type="icon" />
+
+ <!-- ===== -->
+
+    <h1 class="title1">إرسال عملك إلى اوسامي</h1>
+    <p class="paragraf">(قائمة الإنتظار)</p>
+
+
+
+
+<form method="post"  enctype ="multipart/form-data">
+    
+    
+   @*<label asp-for="UserLogid">
+    <input  type="" class="input" asp-for="UserLogid" value="@ViewBag.Default"> 
+    <span></span>
+    </label>*@
+    <label asp-for="Name">
+        <input asp-for="Name" required="" placeholder="" type="text" class="input">
+        <span>اسم المنتج</span>
+    </label>
+    
+    <br>
+    
+    <label asp-for="Price">
+        <input asp-for="Price" required="" placeholder="" type="text" class="input">
+        <span>السعر</span>
+    </label>
+
+<br>
+    <label asp-for="TypeProductid">
+    <select  asp-for="TypeProductid"  asp-items ="@ViewBag.TypeList"  required="" placeholder="" type="text" class="input"></select>
+        
+    
+</label>
+    
+
+    <br>
+
+    <label asp-for="Description">
+        <textarea asp-for="Description" required="" placeholder="" type="text" class="input"></textarea>
+        <span>وصف المنتج</span>
+    </label>
+
+
+    
+      <label class="custum-file-upload" for="file" >
+            </div>
+           
+           <din/>
+           <div>
+               <img id="myImge" height="200px"/></div>
+           </div>
+
+           
+           
+           
+           <input type="file" id="file">
+        </label>
+        <input type="file"class="send" onchange="lodefile(event)" asp-for="clientFile" />
+        
+
+
+     <button type="submit" class="send">ارسال</button>
+
+</form>  
+@section Scripts{
+    <script>
+        var lodefile = function (event){
+            var reader = new FileReader();
+            reader.onload = function(){
+                var myImge = document.getElementById('myImge');
+                myImge.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+}
+

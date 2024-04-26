@@ -1,0 +1,64 @@
+﻿
+<link rel="stylesheet" href="~/css/apps.css">
+<link rel="shortcut icon" href="~/img/icoooo.png" type="icon" /> 
+
+
+
+<h1 class="title1">منتجات إبداعية تلبي احتياجك</h1>
+        <p class="paragraf"> أطلق العنان لإبداعك من خلال مجموعاتنا الواسعة من الملحقات والبرمجيات مفتوحة المصدر </p>
+        <p class="paragraf2">وسهلة التعديل والتي تلبي متطلبات المشاريع وتوفر الوقت والجهد</p>
+        <div class="filters">
+            <a asp-controller="Goods" asp-action="Template" data-filter=".models" class="active">
+                 قوالب تصميم
+            </a>
+            <a asp-controller="Goods" asp-action="Websites" data-filter=".webss">
+                مواقع
+            </a>
+            <a asp-controller="Goods" asp-action="Apps" data-filter=".Apps">
+                تطبيقات
+            </a>
+            <a asp-controller="Goods" asp-action="Fonts" data-filter=".fonts">
+                خطوط
+            </a>
+            <a asp-controller="Goods" asp-action="Books" data-filter=".books">
+                كتب
+            </a>
+            <a asp-controller="Goods" asp-action="Others" data-filter=".others">
+                منتجات اخرى
+            </a>
+        </div>
+
+<h1 class="title1">تطبيقات</h1>
+    <p class="paragraf">منصة أوسامي تقدم مجموعة متنوعة من المنتجات الرقمية وملحقات التصميم لتلبي احتياجاتك</p>
+    <p class="paragraf2">ولمساعدتك في انجاز اعمالك الابداعية بشكل اسرع واكثر احترافية</p>
+
+    <hr/>
+
+
+     
+@model IEnumerable<Product>
+    <div class="theCards">
+        
+        <!-- project 1 -->
+        <div class="ProjectCard">
+         
+            <!-- هنا يكون المشروع -->
+            @foreach (var item in Model)
+            {
+                <a href="#">
+            <div class="ProjectImg">
+                <img src="@item.imgSrs" />
+                
+            </div>
+            <div class="ProjectInfo">
+                <p class="ProjectDescription">@item.Description </p>
+                <strong class="ProjectTitle">
+                    <span>@item.UserLog.FirstName @item.UserLog.ScendName </span>
+                    <a href="#" class="price">@item.Price</a> 
+                </strong>
+            </div>
+            </a>
+            }
+        </div>
+    </div>
+

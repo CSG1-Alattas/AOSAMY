@@ -1,0 +1,104 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = AOSAMY
+build_property.RootNamespace = AOSAMY
+build_property.ProjectDir = C:\Users\abdualrhman\Desktop\AOSAMY\AOSAMY\
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = C:\Users\abdualrhman\Desktop\AOSAMY\AOSAMY
+build_property._RazorSourceGeneratorDebug = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Goods/Apps.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNcQXBwcy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Goods/Books.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNcQm9va3MuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Goods/Fonts.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNcRm9udHMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Goods/Others.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNcT3RoZXJzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Goods/Template.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNcVGVtcGxhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Goods/Websites.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcR29vZHNcV2Vic2l0ZXMuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxQcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Main/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFpblxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Market/MarkteUser.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XE1hcmt0ZVVzZXIuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Market/ProductView.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XFByb2R1Y3RWaWV3LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Market/Shops.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTWFya2V0XFNob3BzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Operation/AddProduct.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uXEFkZFByb2R1Y3QuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Operation/Portfolio.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcT3BlcmF0aW9uXFBvcnRmb2xpby5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXEVycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/User/LogIn.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxMb2dJbi5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/User/Singnin.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxTaW5nbmluLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/User/UserPage.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcVXNlclxVc2VyUGFnZS5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/abdualrhman/Desktop/AOSAMY/AOSAMY/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcU2hhcmVkXF9MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-d4vytu4spx

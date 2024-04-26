@@ -1,0 +1,49 @@
+﻿@model IEnumerable<UserInfo>
+<link rel="stylesheet" href="~/css/shops.css">
+<link rel="shortcut icon" href="~/img/icoooo.png" type="icon" /> 
+<form enctype ="multipart/form-data">
+    <!-- <section class="shops"> -->
+   
+    <h1 class="title1">متاجر الفنانين</h1>
+    <p class="paragraf"> قم بالتحميل او الشراء المباشر للمنتجات الرقمية من متاجر الفنانين، والتي تشمل:</p>
+    <p class="paragraf2"> قوالب التصميم، الرسومات، البرامج، الخطوط، وحتى الكتب الرقمية واكثر</p>
+
+    <!-- -------- card 1 ------- -->
+@foreach (var item in Model)
+{
+   <div class="card-container">
+   <div class="card">
+   <div class="card-border-top">
+   </div>
+   <div class="img">
+   
+       <img src="@item.imgSrs" style="width:75px" class="img-thumbnail" onchange="lodefile(event)">
+   </div>
+   <span>@item.FirstName @item.ScendName</span>
+    <p class="job">@item.Specialty</p>
+   <button><a asp-controller="Market" asp-action="MarkteUser" asp-route-Id="@item.Id"> تصفح
+   </a></button>
+    </div> 
+    </div>
+}
+</form>
+
+@section Scripts{
+    <script>
+        var lodefile = function (event){
+            var reader = new FileReader();
+            reader.onload = function(){
+                var myImge = document.getElementById('myImge');
+                myImge.src = reader.result;
+            }
+            reader.readAsDataURL(event.target.files[0]);
+        }
+    </script>
+}
+
+
+
+   
+      
+
+
